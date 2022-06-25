@@ -20,5 +20,6 @@ public class ScriptOne : MonoBehaviour
     if (Input.GetKeyDown(KeyCode.B))
     }
         GetComponent<Renderer> ().material.color =Color.Blue
-    }
+    
+    
 }
