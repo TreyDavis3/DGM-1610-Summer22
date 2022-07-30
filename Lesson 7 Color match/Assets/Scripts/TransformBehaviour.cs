@@ -7,5 +7,6 @@ public class TransformBehaviour : MonoBehaviour
     public void ResetToZero()
     {
         transform.position = Vector3.zero;
+        ResetToZero.Invoke();
     }
 }
